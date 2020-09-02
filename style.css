@@ -1,0 +1,174 @@
+:root {
+  --background-clr: #f1f0e8;
+  --primary-clr1: #f8efba;
+  --primary-clr2: #c9d59c;
+  --primary-clr3: #97bc84;
+  --secondry-clr1: #62a373;
+  --secondry-clr2: #1c8967;
+  --accent-clr1: #006f5f;
+}
+
+body {
+  margin: 20px;
+  background-color: var(--background-clr);
+  box-sizing: border-box;
+}
+/* header */
+header {
+  margin-bottom: 35px;
+}
+#head-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header img {
+  width: 200px;
+}
+header > div p {
+  margin: 0px;
+}
+.list-items {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  justify-items: center;
+  align-content: center;
+  list-style: none;
+}
+.box-1 {
+  border: 4px solid #97bc84;
+  background-color: #97bc84;
+}
+.box-1:hover {
+  color: #f8efba;
+  cursor: pointer;
+}
+.box-2 {
+  border: 4px solid #97bc84;
+  background-color: #97bc84;
+}
+.box-2:hover {
+  color: #f8efba;
+  cursor: pointer;
+}
+.box-3 {
+  border: 4px solid #97bc84;
+  background-color: #97bc84;
+}
+.box-3:hover {
+  color: #f8efba;
+  cursor: pointer;
+}
+.box-4 {
+  border: 4px solid #97bc84;
+  background-color: #97bc84;
+}
+.box-4:hover {
+  color: #f8efba;
+  cursor: pointer;
+}
+/* header-ends */
+/* main */
+main > h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.3em;
+  text-align: left;
+  grid-auto-rows: minmax(100px, auto);
+  /* border: lightcoral double 10px; */
+}
+/* border */
+.cont-1 {
+  border: 5px solid lightcoral;
+}
+.cont-2 {
+  border: 5px solid lightcoral;
+}
+.cont-3 {
+  border: 5px solid lightcoral;
+}
+.cont-4 {
+  border: 5px solid lightcoral;
+}
+.cont-5 {
+  border: 5px solid lightcoral;
+}
+.cont-6 {
+  border: 5px solid lightcoral;
+}
+.cont-7 {
+  border: 5px solid lightcoral;
+}
+.cont-8 {
+  border: 5px solid lightcoral;
+}
+.cont-9 {
+  border: 5px solid lightcoral;
+}
+.cont-10 {
+  border: 5px solid lightcoral;
+}
+.cont-11 {
+  border: 5px solid lightcoral;
+}
+/* main-ends */
+/* footer */
+footer {
+  margin-top: 50px;
+  background-color: lightgrey;
+}
+.footer-logo {
+  margin: 15px;
+}
+.footer-logo img {
+  width: 100px;
+}
+footer p {
+  font-size: 1.1em;
+  margin: 0px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 200px 900px 1fr;
+  justify-items: center;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  list-style: none;
+  text-decoration: none;
+  justify-self: center;
+  align-self: center;
+}
+ul img {
+  width: 80px;
+}
+.men-bike {
+  display: grid;
+  margin-bottom: 35px;
+}
+.girls-bike {
+  display: grid;
+  margin-bottom: 35px;
+}
+.women-bike {
+  display: grid;
+  margin-bottom: 35px;
+}
+.kids-bike {
+  display: grid;
+  margin-bottom: 35px;
+}
+.boys-bike {
+  display: grid;
+  margin-bottom: 35px;
+}
+address {
+  margin-top: 15px;
+}
+/* footer-ends */
